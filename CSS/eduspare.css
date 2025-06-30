@@ -77,7 +77,7 @@ body {
 }
 
 .logo {
-    background-image: url("/edusphere/img/123.png");
+    background-image: url("/img/123.png");
     height: 90px;
     width: 150px;
     background-size: cover;
@@ -152,7 +152,7 @@ select {
 
 }
 .background-img {
-    background-image: url("/edusphere/img/background.png");
+    background-image: url("/img/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ h1 {
 }
 
 .b-tech {
-    background-image: url("/edusphere/img/btech.png");
+    background-image: url("/img/btech.png");
     background-size: cover;
     height: 160px;
     width: 220px;
@@ -255,7 +255,7 @@ h1 {
 }
 
 .bca {
-    background-image: url("/edusphere/img/bca.png");
+    background-image: url("/img/bca.png");
     background-size: cover;
     height: 160px;
     width: 220px;
@@ -282,7 +282,7 @@ h1 {
     background-color: #0060B1;
 }
 .bba {
-    background-image: url("/edusphere/img/bba.png");
+    background-image: url("/img/bba.png");
     background-size: cover;
    height: 160px;
     width: 220px;
@@ -309,7 +309,7 @@ h1 {
     background-color: #0060B1;
 }
 .pgdm {
-    background-image: url("/edusphere/img/pgdm.png");
+    background-image: url("/img/pgdm.png");
     background-size: cover;
     height: 160px;
     width: 220px;border-top-left-radius: 10px;
@@ -496,7 +496,7 @@ h1 {
  }
 
 .news-img1 {
-    background-image: url("/edusphere/img/news1.jpeg");
+    background-image: url("/img/news1.jpeg");
     background-size: cover;
     height: 200px;
     width: 900px;
@@ -535,7 +535,7 @@ h4 {
 }
 .news-img2 {
     margin-top: 5px;
-    background-image: url("/edusphere/img/news2.jpeg");
+    background-image: url("/img/news2.jpeg");
     background-size: cover;
     height: 180px;
     width: 670px;
@@ -622,7 +622,7 @@ h4 {
 }
 
 .img-dir {
-    background-image: url("/edusphere/img/its-me.jpg");
+    background-image: url("/img/its-me.jpg");
     background-size: cover;
     height: 300px ;
     width: 300px;
@@ -646,7 +646,7 @@ h4 {
     justify-content: center;
 }
 .vc-img {
-    background-image: url("/edusphere/img/satyam.jpeg");
+    background-image: url("/img/satyam.jpeg");
     background-size: cover;
     height: 300px ;
     width: 300px;
@@ -721,7 +721,7 @@ h5 {
 .image {
     height: 400px;
     width: 100%;
-    background-image: url("/edusphere/img/back.jpg");
+    background-image: url("/img/back.jpg");
     background-size: cover;
     
 }

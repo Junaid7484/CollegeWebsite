@@ -72,7 +72,7 @@ body {
 }
 
 .logo {
-    background-image: url("/edusphere/img/123.png");
+    background-image: url("/img/123.png");
     height: 90px;
     width: 150px;
     background-size: cover;
@@ -109,7 +109,7 @@ body {
 
 }
 .background-img {
-    background-image: url("/edusphere/img/bba-img.jpeg");
+    background-image: url("/img/bba-img.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ h2 {
 .pic {
     height: 545px;
     width: 100%;
-    background-image: url("/edusphere/img/tech-pic.png");
+    background-image: url("/img/tech-pic.png");
     background-size: cover;
     padding: 5px;
 }
@@ -412,7 +412,7 @@ h5 {
 .image {
     height: 400px;
     width: 100%;
-    background-image: url("/edusphere/img/back.jpg");
+    background-image: url("/img/back.jpg");
     background-size: cover;
 }
 

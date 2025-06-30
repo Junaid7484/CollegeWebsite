@@ -77,7 +77,7 @@ body {
 }
 
 .logo {
-    background-image: url("/edusphere/img/123.png");
+    background-image: url("/img/123.png");
     height: 90px;
     width: 150px;
     background-size: cover;
