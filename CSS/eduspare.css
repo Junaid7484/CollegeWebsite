@@ -1,0 +1,808 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+
+}
+
+.nav-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    background-color: #0060B1;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font: bold;
+    color: #fff;
+
+}
+
+.call i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    font: bold;
+    color: #fff;
+}
+.mail i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.top-media {
+    height: 22px;
+    width: 900px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.media {
+    text-decoration: none;
+    height: 20px;
+    width: 220;
+}
+
+.media i {
+    margin-left: 30px;
+    color: rgb(197, 195, 195);
+}
+
+.nav-second {
+    height: 90px;
+    width: 100%;
+}
+.nav-logo {
+    height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    background-image: url("/edusphere/img/123.png");
+    height: 90px;
+    width: 150px;
+    background-size: cover;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+select {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+
+.anchor {
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 500px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.anchor a:hover {
+    color: #2745cc;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 12px;
+    margin-bottom: 5px;
+}
+
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #1bb28a ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(77, 70, 177, 0.2);
+}
+
+.button a:hover {
+    background-color: #2a2aae;
+    color: white;
+}
+
+.container {
+    display: flex;
+
+}
+.background-img {
+    background-image: url("/edusphere/img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.overlay-text {
+    border: 2px solid black;
+    height: 250px;
+    width: 30%;
+    margin-left: 920px;
+    margin-top: 130px;
+    padding: 12px;
+    background-color:rgba(22, 21, 21, 0.5);
+    border-radius: 70px 10px;
+
+}
+
+.overlay-text h1 {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.overlay-text p {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.overlay-text a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 2px solid grey;
+    padding: 8px;
+    background-color: #289259;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.overlay-text a:hover {
+    background-color: #2745cc;
+}
+
+
+
+.course-section {
+    margin: 0;
+    height: 340px;
+    width: 100%;
+    background-color: rgb(42, 49, 45);
+    padding: 12px;
+
+}
+
+h1 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.course {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+    margin: 0px 50px 10px 50px;
+}
+
+.b-tech {
+    background-image: url("/edusphere/img/btech.png");
+    background-size: cover;
+    height: 160px;
+    width: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.b-tech a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    border: 1px solid rgb(112, 107, 107);
+    padding: 8px;
+    background-color:#569d79 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    
+}
+
+.b-tech a:hover{
+    background-color: #0060B1;
+}
+
+.bca {
+    background-image: url("/edusphere/img/bca.png");
+    background-size: cover;
+    height: 160px;
+    width: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bca a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    border: 1px solid rgb(112, 107, 107);
+    padding: 8px;
+    background-color:#569d79 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.bca a:hover{
+    background-color: #0060B1;
+}
+.bba {
+    background-image: url("/edusphere/img/bba.png");
+    background-size: cover;
+   height: 160px;
+    width: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bba a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    border: 1px solid rgb(112, 107, 107);
+    padding: 8px;
+    background-color:#569d79 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.bba a:hover{
+    background-color: #0060B1;
+}
+.pgdm {
+    background-image: url("/edusphere/img/pgdm.png");
+    background-size: cover;
+    height: 160px;
+    width: 220px;border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pgdm a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    border: 1px solid rgb(112, 107, 107);
+    padding: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#569d79 ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.pgdm a:hover{
+    background-color: #0060B1;
+}
+
+.edusphere {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    
+}
+
+.video-section {
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    margin: 20px 0px 0px 100px;
+    border-right: 1px solid rgb(225, 217, 217);
+    border-bottom: 1px solid rgb(225, 217, 217);
+
+}
+.video-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.video {
+    display: flex;
+    
+   
+}
+
+.para {
+    width: 30%;
+    padding: 8px;
+    margin: 0px 0px 80px 50px;
+    
+}
+
+.para p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #454242;
+    
+}
+
+.para a{
+    text-decoration: none;
+    background-color: #289259;
+    color: #fff;
+    padding: 8px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.para a:hover{
+    background-color: #2745cc;
+}
+
+.form {
+    width: 30%;
+    height: 400px;
+    padding: 80px;
+}
+
+.form-part {
+    pad: 20px;
+    border-top: 3px solid seagreen;
+    border-left: 1px solid #e0dada;
+    border-right: 1px solid #e0dada;
+    border-bottom: 2px solid #e0dada;
+    padding: 20px;
+}
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.form-part p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 88, 88);
+}
+
+.location {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #797676;
+}
+.location select {
+    width: 265px;
+    height: 40px;
+    font-size: 16px;
+
+}
+
+.select-courses {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #797676;
+    margin-top: 30px;
+}
+.select-courses select {
+    font-size: 16px;
+    width: 265px;
+    height: 40px;
+}
+
+
+
+
+.search {
+     width: 250px;
+    height: 25px;
+    border: 1px solid #797676;
+    padding: 8px;
+    margin-top: 30px;
+    background-color:#4cbc80;
+    border-radius: 5px;
+
+    
+}
+
+.search a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+    
+}
+.search:hover {
+    background-color:#0060B1;
+}
+
+.events {
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+}
+.event-heading {
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.news-section {
+    height: 450px;
+    width: 52%;
+    margin-left: 105px;
+    border-top: 1px solid #c7c2c2;
+    border-right: 1px solid #c7c2c2;
+    border-bottom: 1px solid #c7c2c2;
+
+}
+.news1 {
+    display: flex;
+ }
+
+.news-img1 {
+    background-image: url("/edusphere/img/news1.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.news-heading1 {
+    margin-left: 30px;
+    padding: 10px;
+}
+h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6868;
+}
+
+.status {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6a6868;
+}
+.status a {
+    text-decoration: none;
+    color: #1ec873;
+}
+
+.news-heading1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6868;
+}
+
+.news2 {
+    margin-top: 30px;
+    display: flex;
+    
+
+}
+.news-img2 {
+    margin-top: 5px;
+    background-image: url("/edusphere/img/news2.jpeg");
+    background-size: cover;
+    height: 180px;
+    width: 670px;
+    border-radius: 10px;
+}
+
+.news-heading2 {
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 5px;
+
+} 
+
+.news-heading2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6868;
+}
+
+.events-date {
+    width: 30%;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.events-date h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.date {
+    border-top: 2px solid green;
+    border-left: 2px solid rgb(218, 209, 209);
+    border-right: 2px solid rgb(218, 209, 209);
+    border-bottom: 2px solid green;
+    padding: 12px;
+}
+
+.date-box {
+    display:flex ;
+    border: 1px solid rgb(218, 209, 209);
+    padding: 8px;
+    
+}
+
+.date-box p {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid rgb(218, 209, 209);
+    
+    
+}
+
+.date-box a {
+    text-decoration: none;
+    border: 1px solid rgb(218, 209, 209);
+    margin: 20px 0px 0px 30px;
+    height: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(98, 94, 94);
+}
+
+.owner {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.1);
+}
+
+.owner-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-img {
+    height: 400px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #a2a2a2;
+    
+}
+
+.img-dir {
+    background-image: url("/edusphere/img/its-me.jpg");
+    background-size: cover;
+    height: 300px ;
+    width: 300px;
+    margin: 0px 0px 0px 40px ;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.owner-img p {
+    margin: 30px 0px 100px 50px;
+    height: 60px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(108, 105, 105);
+}
+
+.vc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vc-img {
+    background-image: url("/edusphere/img/satyam.jpeg");
+    background-size: cover;
+    height: 300px ;
+    width: 300px;
+    margin: 20px 0px 0px 40px ;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.vc p {
+    margin: 30px 0px 0px 50px;
+    height: 40px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(108, 105, 105);
+}
+
+.imp-link {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #152b19;
+    margin-left: 220px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    color:#fff
+}
+.imp-link i {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-left: 30px;
+    color: red;
+}
+.imp-link a {
+    text-decoration: none;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+}
+.imp-link a:hover {
+    color: #5e5e63;
+}
+.imp-link p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.number {
+    border-right: 1px solid grey;
+    width: 200px;
+    margin-left: 30px;
+}
+.location1 {
+    border-right: 1px solid grey;
+    width: 220px;
+    height: 160px;
+} 
+.location1 h5 {
+    margin-left: 20px;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+    background-image: url("/edusphere/img/back.jpg");
+    background-size: cover;
+    
+}
+
+.info {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 200px;
+}
+.footer-content {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(19, 19, 19,0.8);
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.institute {
+    width: 150px;
+    color: #fff;
+    margin-top: 30px;
+}
+.institute h6 {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid red;
+}
+.institute p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.institute a {
+    text-decoration: none;
+    color: #cedc0f;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link h6 {
+    font-size: 19px;
+    border-bottom: 2px solid red;
+}
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover {
+    color: #e32727;
+}
+.impt-link {
+    margin-top: 40px;
+    color: white;
+}
+.impt-link2 {
+    margin-top: 130px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.campus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.branch {
+    margin-bottom: 45px;
+}
+.main-campus {
+    margin-left: 50px;
+    margin-top: 130px;
+}

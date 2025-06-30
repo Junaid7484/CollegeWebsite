@@ -1,0 +1,492 @@
+body {
+    margin: 0;
+    border: border-box;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    background-color: #0060B1;
+}
+
+
+.call {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    font: bold;
+    color: #fff;
+
+}
+
+.call i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    font: bold;
+    color: #fff;
+}
+.mail i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.top-media {
+    height: 22px;
+    width: 900px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.media {
+    text-decoration: none;
+    height: 20px;
+    width: 220;
+}
+
+.media i {
+    margin-left: 20px;
+    color: rgb(197, 195, 195);
+
+}
+
+.nav-second {
+    height: 90px;
+    width: 100%;
+}
+.nav-logo {
+    height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    background-image: url("123.png");
+    height: 90px;
+    width: 150px;
+    background-size: cover;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.anchor {
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 500px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.anchor a:hover {
+    color: #2745cc;
+}
+
+.container {
+    display: flex;
+
+}
+.background-img {
+    background-image: url("/edusphere/img/b-tech-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    z-index: 300;
+}
+.content-one {
+    width: 100%;
+    height: 400px;
+}
+.content-one-main {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.content-one-main a{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    top: 620px;
+    left: 35px;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    background-color: #25d366;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: #43be9f;
+}
+.content-one-main i {
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.content-one-main a:hover {
+    color: grey;
+}
+.content-para {
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+}
+.content-para p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #545454;
+    font-size: 19px;
+    width: 80%;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+    border-bottom: 2px solid rgb(218, 51, 51);
+    width: 380px;
+    padding: 10px;
+    color: rgb(53, 150, 53);
+    font-size: 30px;
+}
+
+.content-two {
+    width: 100%;
+    height: 500px;
+}
+.content-two-main {
+    height: 300px;
+    width: 80%;
+    display: flex;
+}
+.content-two h1 {
+    width: 750px;
+}
+.content-two-main p{
+    margin-left: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #545454;
+    font-size: 19px;
+}
+select {
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
+}
+
+.syllabus {
+    height: 640px;
+    width: 100%;
+}
+h2 {
+    margin-left: 170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    width: 230px;
+    color: green;
+}
+.pic {
+    height: 545px;
+    width: 100%;
+    background-image: url("/edusphere/img/tech-pic.png");
+    background-size: cover;
+    padding: 5px;
+}
+.year1-2 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #545454;
+    font-size: 18px;
+    margin-left: 170px;
+    background-color: rgb(6, 191, 253,0.2);
+}
+h3 {
+    margin: 0;
+    border-bottom: 2px solid grey ;
+    width: 270px;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.sem1 {
+    border-right: 2px solid grey ;
+    padding: 8px;
+    color: white;
+}
+.sem2 {
+    border-right: 2px solid grey ;
+    padding: 8px;
+    color: white;
+}
+.sem3 {
+    border-right: 2px solid grey ;
+    padding: 8px;
+    color: white;
+}
+.sem4 {
+
+    padding: 8px;
+    color: white;
+}
+.skill {
+    height: 650px;
+    width: 100%;
+}
+.skill h2 {
+    margin-left: 200px;
+    width: 475px;
+}
+.skill-detail {
+    width: 70%;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    color:#5e5e63;
+}
+.skill-detail h4 {
+    font-size: 23px;
+    color: black;
+}
+.fee-details {
+    height: 450px;
+}
+.fee-structure {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+}
+.fee {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    border: 2px solid grey;
+
+}
+.fee-details h1 {
+    width: 200px;
+    margin-left: 150px;
+}
+.year {
+    border-right: 1px solid grey ;
+    width: 100px;
+
+}
+.year p {
+    padding: 8px;
+
+}
+.registration {
+    border-right: 1px solid grey ;
+    width: 150px;
+}
+.registration p {
+    padding: 8px;
+}
+.tution {
+    border-right: 1px solid grey ;
+    width: 150px;
+}
+.tution p {
+    padding: 8px;
+}
+.development {
+    border-right: 1px solid grey ;
+    width: 170px;
+}
+.development p {
+    padding: 8px;
+}
+.dress {
+    border-right: 1px solid grey ;
+    width: 150px;
+}
+.dress p {
+    padding: 8px;
+}
+.total p {
+    padding: 8px;
+}
+.fee h4 {
+    font-size: 18px;
+}
+
+.imp-link {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #152b19;
+    margin-left: 220px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 200;
+    border-radius: 50px;
+    color:#fff
+}
+.imp-link i {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-left: 30px;
+    color: red;
+}
+.imp-link a {
+    text-decoration: none;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+}
+.imp-link a:hover {
+    color: #5e5e63;
+}
+.imp-link p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.number {
+    border-right: 1px solid grey;
+    width: 200px;
+    margin-left: 30px;
+}
+.location {
+    border-right: 1px solid grey;
+    width: 220px;
+    height: 160px;
+} 
+.location h5 {
+    margin-left: 30px;
+}
+.location i {
+    margin-left: 50px;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+    background-image: url("/edusphere/img/back.jpg");
+    background-size: cover;
+}
+
+.info {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 150;
+    margin-top: 200px;
+    
+}
+.footer-content {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(19, 19, 19,0.8);
+    display: flex;
+    justify-content:space-evenly;
+}
+.institute {
+    width: 150px;
+    color: #fff;
+    margin-top: 30px;
+}
+.institute h6 {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid red;
+}
+.institute p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.institute a {
+    text-decoration: none;
+    color: #cedc0f;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link h6 {
+    font-size: 19px;
+    border-bottom: 2px solid red;
+}
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover {
+    color: #e32727;
+}
+.impt-link {
+    margin-top: 40px;
+    color: white;
+}
+.impt-link2 {
+    margin-top: 130px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.campus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.branch {
+    margin-bottom: 45px;
+}
+.main-campus {
+    margin-left: 50px;
+    margin-top: 130px;
+}

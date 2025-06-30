@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+
+}
+
+.nav-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    background-color: #0060B1;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font: bold;
+    color: #fff;
+
+}
+
+.call i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    font: bold;
+    color: #fff;
+}
+.mail i {
+    margin-right: 10px;
+    color: rgb(197, 195, 195);
+}
+
+.top-media {
+    height: 22px;
+    width: 900px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.media {
+    text-decoration: none;
+    height: 20px;
+    width: 220;
+}
+
+.media i {
+    margin-left: 30px;
+    color: rgb(197, 195, 195);
+}
+
+.nav-second {
+    height: 90px;
+    width: 100%;
+}
+.nav-logo {
+    height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    background-image: url("/edusphere/img/123.png");
+    height: 90px;
+    width: 150px;
+    background-size: cover;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+select {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+
+.anchor {
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 500px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.anchor a:hover {
+    color: #2745cc;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 12px;
+    margin-bottom: 5px;
+}
+
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #1bb28a ;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(77, 70, 177, 0.2);
+}
+
+.button a:hover {
+    background-color: #2a2aae;
+    color: white;
+}
